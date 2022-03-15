@@ -1,0 +1,6 @@
+* Coyote time on jumps
+* Score
+* Offline mode
+* Connection GUI
+* Lava kills you lol
+* Leaderboard

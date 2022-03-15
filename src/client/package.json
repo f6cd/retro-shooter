@@ -1,0 +1,42 @@
+{
+  "name": "p5-modular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "scripts": {
+    "start-dev": "npx webpack serve --config config/webpack.dev.js --mode development",
+    "build": "npx webpack build --config config/webpack.prod.js --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f6cd/ModularP5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f6cd/ModularP5/issues"
+  },
+  "homepage": "https://github.com/f6cd/ModularP5#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-p5js": "^1.1.0"
+  },
+  "dependencies": {
+    "cannon-es": "github:pmndrs/cannon-es",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "gl-matrix": "^3.4.3",
+    "howler": "^2.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "p5": "^1.4.0",
+    "rxjs": "^7.5.2",
+    "shared": "file:../shared",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
